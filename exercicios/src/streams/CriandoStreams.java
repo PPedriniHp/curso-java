@@ -18,10 +18,10 @@ public class CriandoStreams {
 		String[] maisLangs = { "Python ", "Lisp ", "Perl ", "Go\n" };
 		
 		Stream.of(maisLangs).forEach(print);
-		Arrays.stream(maisLangs).forEach(print);
-		Arrays.stream(maisLangs, 1, 4).forEach(print);
+		arrays.stream(maisLangs).forEach(print);
+		arrays.stream(maisLangs, 1, 4).forEach(print);
 		
-		List<String> outrasLangs = Arrays.asList("C ", "PHP ", "Kotlin\n");
+		List<String> outrasLangs = arrays.asList("C ", "PHP ", "Kotlin\n");
 		outrasLangs.stream().forEach(print);
 		outrasLangs.parallelStream().forEach(print);
 		

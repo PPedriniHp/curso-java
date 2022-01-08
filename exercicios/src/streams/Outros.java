@@ -16,7 +16,7 @@ public class Outros {
 		Aluno a8 = new Aluno("Maria", 10);
 		
 		List<Aluno> alunos = 
-				Arrays.asList(a1, a2, a3, a4, a5, a6, a7, a8);
+				arrays.asList(a1, a2, a3, a4, a5, a6, a7, a8);
 		
 		System.out.println("distinct...");
 		alunos.stream().distinct().forEach(System.out::println);

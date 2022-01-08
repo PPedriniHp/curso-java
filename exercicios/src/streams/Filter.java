@@ -16,7 +16,7 @@ public class Filter {
 		Aluno a5 = new Aluno("Rebeca", 7.1, true);
 		Aluno a6 = new Aluno("Pedro", 8.8, false);
 		
-		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6);
+		List<Aluno> alunos = arrays.asList(a1, a2, a3, a4, a5, a6);
 		
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		Predicate<Aluno> bomComportamento = a -> a.bomComportamento;

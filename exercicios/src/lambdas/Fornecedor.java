@@ -9,7 +9,7 @@ public class Fornecedor {
 	public static void main(String[] args) {
 		
 		Supplier<List<String>> umLista = 
-				() -> Arrays.asList("Ana", "Bia", "Lia", "Gui");
+				() -> arrays.asList("Ana", "Bia", "Lia", "Gui");
 		System.out.println(umLista.get());
 	}
 }

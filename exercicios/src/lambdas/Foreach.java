@@ -7,7 +7,7 @@ public class Foreach {
 
 	public static void main(String[] args) {
 		
-		List<String> aprovados = Arrays
+		List<String> aprovados = arrays
 				.asList("Ana", "Bia", "Lia", "Gui");
 		
 		System.out.println("Forma tradicional...");

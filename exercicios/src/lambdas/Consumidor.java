@@ -19,7 +19,7 @@ public class Consumidor {
 		Produto p4 = new Produto("Borracha", 7.80, 0.18);
 		Produto p5 = new Produto("Lapis", 4.39, 0.19);
 		
-		List<Produto> produtos = Arrays.asList(p1, p2, p3, p4, p5);
+		List<Produto> produtos = arrays.asList(p1, p2, p3, p4, p5);
 		
 		produtos.forEach(imprimirNome);
 		produtos.forEach(p -> System.out.println(p.preco));

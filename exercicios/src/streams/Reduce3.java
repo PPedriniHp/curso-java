@@ -15,7 +15,7 @@ public class Reduce3 {
 		Aluno a3 = new Aluno("Gui", 8.1);
 		Aluno a4 = new Aluno("Gabi", 10);
 		
-		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4);
+		List<Aluno> alunos = arrays.asList(a1, a2, a3, a4);
 		
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		Function<Aluno, Double> apenasNota = a -> a.nota;

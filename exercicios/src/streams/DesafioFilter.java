@@ -18,7 +18,7 @@ public class DesafioFilter {
 		Produto p7 = new Produto("Monitor", 800, 0.31, 0);
 		
 		List<Produto> produtos = 
-				Arrays.asList(p1, p2, p3, p4, p5, p6, p7);
+				arrays.asList(p1, p2, p3, p4, p5, p6, p7);
 		
 		// Filter, filter, map
 		Predicate<Produto> superPromocao = p -> p.desconto >= 0.3;

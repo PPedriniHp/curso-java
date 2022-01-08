@@ -9,7 +9,7 @@ public class ImprimindoObjetos {
 
 	public static void main(String[] args) {
 		
-		List<String> aprovados = Arrays.asList("Lu", "Gui", "Luca", "Ana");
+		List<String> aprovados = arrays.asList("Lu", "Gui", "Luca", "Ana");
 		
 		System.out.println("Usando o foreach...");
 		for(String nome: aprovados) {

@@ -50,7 +50,7 @@ public class TabuleiroConsole {
 				
 				String digitado = capturarValorDigitado("Digite (x, y): ");
 				
-				Iterator<Integer> xy = Arrays.stream(digitado.split(","))
+				Iterator<Integer> xy = arrays.stream(digitado.split(","))
 					.map(e -> Integer.parseInt(e.trim())).iterator();
 				
 				digitado = capturarValorDigitado("1 - Abrir ou 2 - (Des)Marcar: ");
